@@ -13,7 +13,7 @@ inputs:
   ide-port:
     description: 'IDE port to use (default "3000")'
     required: false
-    default: '4000'
+    default: '3000'
   ide-network:
     description: 'IDE network to use (default "host")'
     required: false
