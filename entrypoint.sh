@@ -21,6 +21,6 @@ fi
 echo "Version: [$IDE_VERSION]"
 echo "Port: [$IDE_PORT]"
 
-docker run --detach --publish=$IDE_PORT:80 --network=$IDE_NETWORK --name=$IDE_CONTAINER_NAME zcodeapp/ide:$IDE_VERSION
+docker run --detach --publish=$IDE_PORT:80 --name=$IDE_CONTAINER_NAME zcodeapp/ide:$IDE_VERSION
 sleep 5
 echo "Success run container [$IDE_CONTAINER_NAME - zcodeapp/ide:$IDE_VERSION - port $IDE_PORT - network $IDE_NETWORK]"
